@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  line-height: 0;
+}
+
+main {
+  padding: 2% 15%;
+}
+
+select,
+input,
+label {
+  border-radius: 1% 1% 1% 1% / 10% 10% 10% 10%;
+}
+
+select,
+button {
+  width: 85%;
+}
+
+input,
+button,
+#comment {
+  border-width: 0;
+}
+
+form {
+  text-align: left;
+  padding: 5% 0 5% 5%;
+  margin: 2% 10%;
+  background-color: #0f044c;
+  color: #fff;
+  line-height: 1.5em;
+  border-radius: 2% 2% 2% 2% / 1% 1% 1% 1%;
+}
+
+input {
+  width: 80%;
+  padding: 1.5%;
+  margin-bottom: 2%;
+}
+
+label {
+  display: block;
+  margin: 2% 0 1% 0;
+  font-size: 1.2em;
+}
+
+select {
+  padding: 2%;
+  color: grey;
+}
+
+#comment {
+  height: 15%;
+  padding-bottom: 13%;
+  border-radius: 0;
+  width: 82%;
+}
+
+button {
+  padding: 2%;
+  margin-top: 3%;
+  background-color: #50cb93;
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  font-size: 1.2em;
+}
+
+option {
+  font-size: 1.2em;
+}
+
+#radio-label,
+#check-label {
+  display: inline;
+}
+
+#btn-check,
+#btn-radio {
+  width: 50px;
+  height: 20px;
+}
